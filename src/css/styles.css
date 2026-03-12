@@ -1,6 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
 * {
-  color: #fff;
-  background: #000;
+  color: #e3e3e3;
+  background: #131314;
+  margin: 0;
+  padding: 0;
+}
+
+pre,
+code {
+  color: #e3e3e3;
+  background: #131314;
+  font-size: 6rem;
+  border: none;
+  font-family: "Fredoka", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  font-size: 6rem;
 }
 
 a {
@@ -18,10 +41,7 @@ a {
 }
 
 body {
-  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  letter-spacing: 0.02em;
-  font-size: 4rem;
+  font-family: "Fredoka", sans-serif;
+  font-size: 6rem;
 }
 
