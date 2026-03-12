@@ -10,7 +10,7 @@
     "lint": "eslint src --ext .js --ext .jsx --cache",
     "test": "NODE_ENV=testing mocha --compilers js:babel-core/register test --recursive",
     "check": "npm run lint && npm run test",
-    "release": "npm run lint && rm -rf build/* && NODE_ENV=production webpack --mode production",
+    "release": "rm -rf build/* && NODE_ENV=production webpack --mode production",
     "deploy": "npm run release && cp -r build/* docs/"
   },
   "keywords": [

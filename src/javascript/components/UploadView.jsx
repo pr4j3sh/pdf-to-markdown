@@ -1,6 +1,5 @@
 import React from "react";
 
-import Alert from "react-bootstrap/lib/Alert";
 import Dropzone from "react-dropzone";
 import FaCloudUpload from "react-icons/lib/fa/cloud-upload";
 
@@ -53,4 +52,3 @@ export default class UploadView extends React.Component {
     );
   }
 }
-

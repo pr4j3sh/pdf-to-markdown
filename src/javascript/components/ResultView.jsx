@@ -1,10 +1,6 @@
 import React from "react";
 import Remarkable from "remarkable";
 
-import ButtonToolbar from "react-bootstrap/lib/ButtonToolbar";
-import ButtonGroup from "react-bootstrap/lib/ButtonGroup";
-import Button from "react-bootstrap/lib/Button";
-
 import ParseResult from "../models/ParseResult.jsx";
 
 export default class ResultView extends React.Component {
@@ -85,4 +81,3 @@ export default class ResultView extends React.Component {
     return <div>{textComponent}</div>;
   }
 }
-
